@@ -1,0 +1,22 @@
+import smallDB
+db = smallDB.load("data.db",True)
+# db.set('name','Akhil')
+# db.set('age',17)
+# db.set('sex','Male')
+# print(db.dbmerge('akhil.db'))
+# db.random_insert(10)
+# db.del_db()
+# db.dump()
+
+# db = smallDB.load('ektha.db')
+# db.set('key1', 'value1')
+db.get('http://saral.navgurukul.org/api/courses/12/exercises')
+# db.set('key2', 'value2')
+# db.get('key2')
+
+# db1 = smallDB.load('pehla.db', True)
+# db2 = smallDB.load('doosra.db', True)
+# db1.set('key', 'value1')
+# db2.set('key', 'value2')
+# db2.get('key')
+# db1.get('key')
